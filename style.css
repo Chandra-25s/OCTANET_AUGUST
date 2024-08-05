@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: #54779a;
+    padding: 0.5rem 1rem;
+}
+
+.navbar-brand img {
+    color: #ffffff;
+    font-size: 2rem;
+    filter: contrast(4);
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff;
+    margin: 0 0.75rem;
+    text-decoration: none;
+    font-size: 1.25rem;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #d4d4d4;
+    
+}
+
+.hero {
+    background-image: url('./img6.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 120px 0;
+    text-align: center;
+    position: relative;
+    height: 100vh;
+}
+
+.hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 90%;
+    max-width: 800px;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+.hero-form {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    max-width: 500px;
+    margin: auto;
+}
+
+.hero-form .form-control {
+    border-radius: 20px;
+    margin-bottom: 15px;
+}
+
+.hero-form .btn-primary {
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
+.card {
+    transition: transform 0.3s, box-shadow 0.3s;
+    border-radius: 8px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(33, 24, 198, 0.8);
+}
+
+
+.testimonials {
+    background: #e9ecef;
+    padding: 40px 0;
+    text-align: center;
+} 
+
+.testimonial-item {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+.testimonial-item:hover {
+    box-shadow: 0 4px 8px rgba(55, 137, 172, 0.2);
+    margin-bottom: 30px;
+}
+
+
+.testimonial-item p {
+    font-style: italic;
+}
+
+.testimonial-item h5 {
+    margin-top: 10px;
+    font-weight: bold;
+}
+h3{
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+
+
+/* footer new */
+
+
+.section-p1 {
+    padding: 40px 80px;
+  }
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #54779a;
+    color:white;
+  }
+  footer .col {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+  }
+  footer .logo {
+    margin-bottom: 30px;
+  }
+  footer h4 {
+    font-size: 14px;
+    padding-bottom: 20px;
+  }
+  footer p {
+    font-size: 13px;
+    margin: 0 0 8px 0;
+  }
+  footer a {
+    font-size: 13px;
+    text-decoration: none;
+    color: #222;
+    margin-bottom: 10px;
+    color: white;
+  }
+  footer .follow {
+    margin-top: 20px;
+  }
+  footer .follow i {
+    color: #465b52;
+    padding-right: 4px;
+    cursor: pointer;
+    color: white;
+    
+  }
+  
+  footer .install .row img {
+    border: 1px solid #088178;
+    border-radius: 6px;
+  }
+  
+  footer .install img {
+    margin: 10px 0 15px 0;
+  }
+  
+  footer .follow i:hover,
+  footer a:hover {
+    color: #088178;
+  }
+  footer .copyright {
+    width: 100%;
+    text-align: center;
+  }
